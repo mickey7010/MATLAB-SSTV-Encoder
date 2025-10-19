@@ -1,6 +1,6 @@
 function sstv_scottie1
     fs = 48000;
-    img = imread("6322043_People_thumb.jpg");
+    img = imread("FILENAME");
     img = imresize(img, [256, 320]);
 
     R = double(img(:,:,1));
@@ -82,3 +82,4 @@ function [line_sig, phase_out] = scan_color_line(color_line, fs, phase_in)
     end
     phase_out = phase;
 end
+
